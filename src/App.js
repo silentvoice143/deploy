@@ -35,7 +35,7 @@ function App() {
     );
   }
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/deploy">
       <div className="App">
         <header className="App-header">
           <Link to="/">Home</Link>
