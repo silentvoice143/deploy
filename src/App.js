@@ -47,9 +47,9 @@ function App() {
 
       <Routes>
         <Route exact path="/" Component={Home} />
-        <Route exact path="/about" Component={About} />
-        <Route exact path="/contact" Component={Contact} />
-        <Route exact path="/Social" Component={Social} />
+        <Route path="/about" Component={About} />
+        <Route path="/contact" Component={Contact} />
+        <Route path="/Social" Component={Social} />
       </Routes>
     </BrowserRouter>
   );
